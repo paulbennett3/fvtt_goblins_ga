@@ -9,6 +9,7 @@ console.log('==================================')
 console.log(actor)
 
 
+  
 let class_info = {
     Warrior: {
         Level_Info: {
@@ -36,12 +37,12 @@ let class_info = {
     },
     Rogue: {
         Level_Info: {
-            1: { BAB: 0, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 3 },
-            2: { BAB: 1, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 3 },
-            3: { BAB: 1, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 4 },
-            4: { BAB: 2, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 4 },
-            5: { BAB: 3, SAVES: [12,15,11,13,12] , TOTAL_SKILLS: 5 },
-            6: { BAB: 3, SAVES: [12,15,11,13,12] , TOTAL_SKILLS: 5 }
+            1: { BAB: 0, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 4 },
+            2: { BAB: 1, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 4 },
+            3: { BAB: 1, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 5 },
+            4: { BAB: 2, SAVES: [13,16,13,15,14] , TOTAL_SKILLS: 5 },
+            5: { BAB: 3, SAVES: [12,15,11,13,12] , TOTAL_SKILLS: 6 },
+            6: { BAB: 3, SAVES: [12,15,11,13,12] , TOTAL_SKILLS: 6 }
         },
         HD: 8,
         XP: [-1, 1500, 3000, 6000, 12000, 25000, 50000]
@@ -189,7 +190,29 @@ let saves = class_info[updates.CLASS].Level_Info[system.level].SAVES
 let hp = system.level * (class_info[updates.CLASS].HD + bonus_map[system.abilities.CON])
 hp += '' 
 system.hp = { max: hp, value: hp }
-system.background += "  LEVEL: " + system.level + "   SAVES: " + saves
+system.background += "  LEVEL: " + system.level  
+
+// Level 1:
+//   Everyone -- 2 skills
+//   Warrior -- weapon spec, 1 knack
+//      +1 knack at 3, 6, 9
+//   Rogue -- 2 extra skills
+//      + 1 skill at 3, 5, 7, 9
+//   Mage -- sense magic
+if (updates.CLASS === 'Warrior') {
+    total_knacks = class_info[updates.CLASS].Level_Info[system.level].TOTAL_KNACKS
+    total_skills = 2    
+    system.background += "<p />Weapon Specialization + a total of " + total_knacks + " other knacks (may duplicate, bonuses stack)<p />" 
+    system.background += "<p />Total Skills: at least " + total_skills 
+} else if (updates.CLASS === 'Mage') {
+    total_skills = 2    
+    system.background += "<p />Total Skills: at least " + total_skills 
+} else {
+    total_skills = class_info[updates.CLASS].Level_Info[system.level].TOTAL_SKILLS
+    system.background += "<p />Total Skills: at least " + total_skills 
+}
+
+
 system.saves = {
     0: {name: '', value: saves[0] },
     1: {name: '', value: saves[1] },

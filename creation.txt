@@ -5,11 +5,11 @@
 "Adv: 4 Tested at School ROGUE"| { CLASS: "Rogue", XP: 6000, DEX: 6, INT: 6, SKILL: ["Enigmas", "Athletics"], ITEM: ["thieves tools"], LEFT: { STR: 2, DEX: 2} }
 "Adv: 4 Tested at School WARRIOR"| { CLASS: "Warrior", XP: 6000, STR: 4, DEX: 4, CON: 4, TRAIT: ["Knack: Weapon Specialization"], LEFT: { STR: 2, DEX: 2} }
 "Adv: 5 An Almost Perfect Crime"| { CLASS: "Rogue", XP: 6000, DEX: 6, INT: 6, SKILL: ["Athletics", "Stealth"], ITEM: ["thieves tools"], LEFT: { DEX: 4} }
-"Adv: 6 University of the Unknowable MAGE"| { CLASS: "Mage", XP: 6000, INT: 8, WIS: 4, LEFT: { INT: 4 } }
+"Adv: 6 University of the Unknowable MAGE"| { CLASS: "Mage", XP: 6000, INT: 8, WIS: 4, TRAIT: ["Sense Magic"], LEFT: { INT: 4 } }
 "Adv: 6 University of the Unknowable ROGUE"| { CLASS: "Rogue", XP: 6000, INT: 12, SKILL: ["Lying", "Sleight of Hand"], ITEM: ["thieves tools"], LEFT: { INT: 4 } }
-"Adv: 7 Pastoral Tutelage"| { CLASS: "Mage", XP: 6000, STR: 2, WIS: 8, TRAIT: ["True Name of a Spirit"], LEFT: { WIS: 4 } }
+"Adv: 7 Pastoral Tutelage"| { CLASS: "Mage", XP: 6000, STR: 2, WIS: 8, TRAIT: ["Sense Magic", "True Name of a Spirit"], LEFT: { WIS: 4 } }
 "Adv: 8 The Angered Fae ROGUE"| { CLASS: "Rogue", XP: 6000, DEX: 4, WIS: 4, CHA: 4, SKILL: ["Faerie Lore", "Survival"], ITEM: ["thieves tools"], LEFT: { CHA: 4} }
-"Adv: 8 The Angered Fae MAGE"| { CLASS: "Mage", XP: 6000, INT: 4, WIS: 4, SKILL: ["Faerie Lore"], LEFT: { CHA: 4 } }
+"Adv: 8 The Angered Fae MAGE"| { CLASS: "Mage", XP: 6000, INT: 4, WIS: 4, SKILL: ["Faerie Lore"], TRAIT: ["Sense Magic"], LEFT: { CHA: 4 } }
 "Bittersweet: 1 A Bitter Curse"| { INT: 2, WIS: 2, SKILL: ["-2 to 1 of etiquette,climb,hunt,lie,command"] }
 "Bittersweet: 2 Magic Treasure"| { }
 "Bittersweet: 3 Secret Knowledge"| { ITEM: ["Magic Tome"] }
