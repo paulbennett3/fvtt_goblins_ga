@@ -1,0 +1,42 @@
+Adv: 1 Home Destroyed By Violence
+Adv: 2 Conscripted in the Lord's Army
+Adv: 3 Carried Iron to the Dead King's Tomb
+Adv: 4 Tested at School
+Adv: 5 An Almost Perfect Crime
+Adv: 6 University of the Unknowable
+Adv: 7 Pastoral Tutelage
+Adv: 8 The Angered Fae
+Bittersweet: 1 A Bitter Curse
+Bittersweet: 2 Magic Treasure
+Bittersweet: 3 Secret Knowledge
+Bittersweet: 4 Wealth and Banishment
+Bittersweet: 5 Loss of Titles
+Bittersweet: 6 True Love
+Bittersweet: 7 A Sword with a Soul
+Bittersweet: 8 A Hard Lesson
+Childhood: 1 In the Fields
+Childhood: 2 On the Streets
+Childhood: 3 At Court
+Childhood: 4 Alone
+Childhood: 5 In the Workshop
+Childhood: 6 In the Wild
+Childhood: 7 Training For Battle
+Childhood: 8 On the Road
+Escape: 1 Touched by Chaos
+Escape: 2 Dark Dungeons Beneath the Earth
+Escape: 3 Court Intrigue
+Escape: 4 Heist Gone Bad
+Escape: 5 Captured and Imprisoned
+Escape: 6 Meddled Too Far in the Affairs of Wizards
+Reward: 1 Renown in Battle
+Reward: 2 Fast Friends
+Reward: 3 The King's Oath
+Reward: 4 Lingering Scars and Ill Renown
+Reward: 5 The Trust of a Stalwart Band
+Reward: 6 Forbidden Knowledge
+Rivalry: 1 On a Rooftop 20 Years Ago
+Rivalry: 2 Taking Credit for Killing That Necromancer
+Rivalry: 3 They're Your Nephew's Favorite Adventurer
+Rivalry: 4 A Drunken Wager
+Rivalry: 5 Deadly Rivalry
+Rivalry: 6 Poaching Henchmen

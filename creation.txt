@@ -1,0 +1,46 @@
+"Adv: 1 Home Destroyed By Violence"|{ CLASS: "Warrior", XP: 6000, STR: 6, CON: 6, TRAIT: ["Knack: Defensive Fighter (+1 AC)"], LEFT: { CON: 4} }
+"Adv: 2 Conscripted in the Lord's Army"| { CLASS: "Warrior", XP: 6000, STR:4, CON:4, WIS: 2, CHA: 2, TRAIT: ["Knack: Resilience (+1 to all saves)"], LEFT: { CHA: 4} }
+"Adv: 3 Carried Iron to the Dead King's Tomb ROGUE"| { CLASS: "Rogue", XP: 6000, DEX: 6, WIS: 6, SKILL: ["Undead Lore", "Tomb Robbing"], ITEM: ["thieves tools"], LEFT: { WIS: 4} }
+"Adv: 3 Carried Iron to the Dead King's Tomb WARRIOR"| { CLASS: "Warrior", XP: 6000, STR: 2, CON:4, WIS: 6, TRAIT: ["Knack: Great Strike (+1 damage)"], LEFT: { WIS: 4} }
+"Adv: 4 Tested at School ROGUE"| { CLASS: "Rogue", XP: 6000, DEX: 6, INT: 6, SKILL: ["Enigmas", "Athletics"], ITEM: ["thieves tools"], LEFT: { STR: 2, DEX: 2} }
+"Adv: 4 Tested at School WARRIOR"| { CLASS: "Warrior", XP: 6000, STR: 4, DEX: 4, CON: 4, TRAIT: ["Knack: Weapon Specialization"], LEFT: { STR: 2, DEX: 2} }
+"Adv: 5 An Almost Perfect Crime"| { CLASS: "Rogue", XP: 6000, DEX: 6, INT: 6, SKILL: ["Athletics", "Stealth"], ITEM: ["thieves tools"], LEFT: { DEX: 4} }
+"Adv: 6 University of the Unknowable MAGE"| { CLASS: "Mage", XP: 6000, INT: 8, WIS: 4, LEFT: { INT: 4 } }
+"Adv: 6 University of the Unknowable ROGUE"| { CLASS: "Rogue", XP: 6000, INT: 12, SKILL: ["Lying", "Sleight of Hand"], ITEM: ["thieves tools"], LEFT: { INT: 4 } }
+"Adv: 7 Pastoral Tutelage"| { CLASS: "Mage", XP: 6000, STR: 2, WIS: 8, TRAIT: ["True Name of a Spirit"], LEFT: { WIS: 4 } }
+"Adv: 8 The Angered Fae ROGUE"| { CLASS: "Rogue", XP: 6000, DEX: 4, WIS: 4, CHA: 4, SKILL: ["Faerie Lore", "Survival"], ITEM: ["thieves tools"], LEFT: { CHA: 4} }
+"Adv: 8 The Angered Fae MAGE"| { CLASS: "Mage", XP: 6000, INT: 4, WIS: 4, SKILL: ["Faerie Lore"], LEFT: { CHA: 4 } }
+"Bittersweet: 1 A Bitter Curse"| { INT: 2, WIS: 2, SKILL: ["-2 to 1 of etiquette,climb,hunt,lie,command"] }
+"Bittersweet: 2 Magic Treasure"| { }
+"Bittersweet: 3 Secret Knowledge"| { ITEM: ["Magic Tome"] }
+"Bittersweet: 4 Wealth and Banishment"| { TRAIT: ["Immense Wealth", "Reward on your head"] }
+"Bittersweet: 5 Loss of Titles"| { XP: 6000, CON: 2, SKILL: ["etiquette"], TRAIT: ["The King's Ire"] }
+"Bittersweet: 6 True Love"| { TRAIT: ["Ally: Your True Love"] }
+"Bittersweet: 7 A Sword with a Soul"| {}
+"Bittersweet: 8 A Hard Lesson"| { XP: 6000, WIS: 2, CON: -1 }
+"Childhood: 1 In the Fields"| { CON: 4, CHA: 4, SKILL: ["Farming OR Animal Handling"] }
+"Childhood: 2 On the Streets"| { DEX: 4, INT: 4, SKILL: ["Haggling OR Alertness"] }
+"Childhood: 3 At Court"| { INT: 4, CHA: 4, SKILL: ["Heraldry OR Etiquette"] }
+"Childhood: 4 Alone"| { CON: 4, CHA: 4, SKILL: ["Stealth OR Begging"] }
+"Childhood: 5 In the Workshop"| { INT: 4, WIS: 4, SKILL: ["Any TRADE or CRAFT skill"]}
+"Childhood: 6 In the Wild"| { STR: 4, CON:4, SKILL: ["Survival OR Hunting"] }
+"Childhood: 7 Training For Battle"| { STR: 4, CHA: 4, SKILL: ["Command OR Tactics"] }
+"Childhood: 8 On the Road"| { WIS: 4, CHA: 4, SKILL: ["Survival OR Performance"] }
+"Escape: 1 Touched by Chaos"| { XP: 6000, CON: 2, WIS: 2, RIGHT: { STR: 2} }
+"Escape: 2 Dark Dungeons Beneath the Earth"| { XP: 6000, STR: 2, DEX: 2, ITEM: ["lantern, hooded, Enchanted"], RIGHT: { DEX: 2} }
+"Escape: 3 Court Intrigue"| { XP: 6000, CHA: 2, WIS: 2, TRAIT: ["Place at the King's Table", "A few minor enemies"], RIGHT: { CHA: 2} }
+"Escape: 4 Heist Gone Bad"| { XP: 8000, TRAIT: ["Arthritic Knee (-1 DEX)", "Hatred for ladders"], RIGHT: { CON: 2} }
+"Escape: 5 Captured and Imprisoned"| { XP: 6000, STR: 2, CON: 2, ITEM: ["Dagger, +2"], TRAIT: ["Frightening Scars", "Distrust of Authority"], RIGHT: { INT: 2 }}
+"Escape: 6 Meddled Too Far in the Affairs of Wizards"| {XP: 6000, WIS: 2, CHA: -1, TRAIT: ["+1 to all saves", "Vegetarian"], RIGHT: { WIS: 2} }
+"Reward: 1 Renown in Battle"| { XP: 6000, INT: -1, WIS: -1 }
+"Reward: 2 Fast Friends"| { CHA: 2, STR: -1, TRAIT: ["Ally: Fast Friends"] }
+"Reward: 3 The King's Oath"| { CHA: 2, CON: -1, TRAIT: ["Hidden (Buried) Treasure Chest", "Occasional Attention of Betters"] }
+"Reward: 4 Lingering Scars and Ill Renown"| { XP: 6000, SKILL: ["Survival"], CON: -1, STR: -1, TRAIT: ["Banishment From ???"] }
+"Reward: 5 The Trust of a Stalwart Band"| { TRAIT: ["Ally: Stalwart Band", "Strict code of Ethics"] }
+"Reward: 6 Forbidden Knowledge"| { INT: 2, ITEM: ["Book of Forgotten Lore"] }
+"Rivalry: 1 On a Rooftop 20 Years Ago"| { DEX: 2, ITEM: ["Potion of +5 Dexterity"], OTHER: { DEX: 1} }
+"Rivalry: 2 Taking Credit for Killing That Necromancer"| { INT: 2, TRAIT: ["Detect Magic Items (Passive)"], OTHER: { INT: 1} }
+"Rivalry: 3 They're Your Nephew's Favorite Adventurer"| { STR: 2, TRAIT: ["Hope your rival will talk you up"], OTHER: { STR: 1} }
+"Rivalry: 4 A Drunken Wager"| { CHA: 2, TRAIT: ["Ambitious Goal, Unearned Confidence"], OTHER: { STR: 1} }
+"Rivalry: 5 Deadly Rivalry"| { CON: 2, TRAIT: ["Special: bad hip"], OTHER: { CON: 1} }
+"Rivalry: 6 Poaching Henchmen"| { CHA: 2, TRAIT: ["Good spirited bidding war (job)"], OTHER: { CHA: 1 } }
